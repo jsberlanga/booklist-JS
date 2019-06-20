@@ -1,0 +1,82 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 72.5%;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  background: #fafafa;
+  color: #455a64;
+}
+
+#container {
+  max-width: 80rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+#container h1 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 4rem;
+  color: #f06292;
+}
+
+.booklist {
+  min-height: 50vh;
+}
+
+.booklist__form .booklist__group {
+  display: grid;
+  text-align: left;
+}
+
+.booklist__group label {
+  font-style: italic;
+}
+
+.booklist__group input {
+  padding: 1rem;
+  font-family: "Playfair Display", serif;
+  font-size: 1.4rem;
+  border: 1px solid rgba(212, 212, 212, 0.2);
+  box-shadow: 1px 1px 0px rgba(212, 212, 212, 0.2);
+}
+
+.booklist__add,
+button {
+  padding: 1.2rem;
+  width: 100%;
+  border: none;
+  margin-top: 0.4rem;
+  font-family: "Abril Fatface", cursive;
+  color: #78909c;
+  font-size: 1.9rem;
+  background: #cfd8dc;
+}
+
+.booklist__remove--all,
+.booklist__remove {
+  background: #f06292;
+  color: #fff;
+  height: auto;
+}
+
+.booklist__table {
+  display: grid;
+}
+
+button,
+input[type="submit"] {
+  cursor: pointer;
+}
